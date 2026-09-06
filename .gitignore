@@ -10,6 +10,3 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Pickle / Model files (Exclude large binaries)
-*.pkl
-EOF
