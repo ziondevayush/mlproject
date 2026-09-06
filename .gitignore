@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+# Virtual Environment
+.venv/
+
+# Environment Variables (Secrets)
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Pickle / Model files (Exclude large binaries)
+*.pkl
+EOF
